@@ -2,7 +2,7 @@ const { log } = require('@nodebug/logger')
 const fs = require('fs')
 const OCR = require('..')
 
-const testfilepath = `${process.env.PWD}/tests/test.png`
+const testfilepath = `${process.env.PWD}/tests/test.jpeg`
 
 const ocr = new OCR()
 const buffer = fs.readFileSync(testfilepath)
