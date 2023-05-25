@@ -11,6 +11,14 @@
       "console": "integratedTerminal",
       "program": "${workspaceFolder}/index.js",
       "args": ["--NoDebug"]
+    },
+    {
+      "name": "Test",
+      "type": "node",
+      "request": "launch",
+      "console": "integratedTerminal",
+      "program": "${workspaceFolder}/tests/test.js",
+      "args": ["--NoDebug"]
     }
   ]
 }

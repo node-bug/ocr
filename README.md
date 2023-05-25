@@ -1,1 +1,1 @@
-boiler plate for my node js projects
+return text from an image
